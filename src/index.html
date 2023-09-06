@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artsy</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class='min-h-screen'>
+    <header class='h-10v md:h-20v bg-red-400 sticky top-0'>
+        <section class='max-w-5xl mx-auto flex h-10v justify-between decoration-white'>
+            <div class='p-4 text-2xl font-bold'>Portraits 🖌️</div>
+            
+            <div class="w-2/6 p-4 pr-8 text-right ">
+                <a class="pr-4" href="">🏪</a>
+                <button class="md:hidden ">☰</button>
+            </div>
+        </section>
+
+        <!---------- NAVIGATION BAR --------->
+        <nav class='hidden md:block w-1/2 mx-auto text-right border'>
+            <ul class="flex justify-evenly p-1 ">
+                <a class=" hover:bg-white p-3">Home</a>
+                <a class=" hover:bg-white p-3">Original Work</a>
+                <a class=" hover:bg-white hover:underline p-3">Order</a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!---------- CONTENT OF THE PAGE---------->
+    <main class="min-h-screen">
+        <!--------- HERO SECTION OF THE WEBSITE ------>
+        <section class="p-8 min-h-90v  bg-neutral-400 flex flex-col md:flex-row md:min-h-80v">
+            <article class="h-50v flex flex-col md:flex-row">
+                <h1 class="text-2xl">Portraits can only capture a moment of reality</h1>
+                <img src="./img/p.png" alt="">
+            </article>
+
+        </section>
+
+        <!----------- INTRODUCTION OF CONTENT------>
+        <section class="max-w-5xl p-8 mx-auto ">
+                <!--- Pen Artwork-->
+                <h2 class=" text-lg text-zinc-400">Pen Artwork</h2>
+                <article class="p-4 mx-4 my-8 flex flex-wrap">
+                    <figure class="w-72 h-80 p-3 mx-auto border-2 border-rose-400">
+                        <img class="block" src="./img/manta.jpg" alt="Pen drawing" width="280" height="auto">
+                        <figcaption class="mt-2">
+                            <p>Pen Artwork</p>
+                            <a href="">See more ...</a>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <!---- Pencil Artwork ---->
+                <h2 class="text-right">Pencil Artwork</h2>
+                <article class="p-4 mx-4 my-8 flex flex-wrap">
+                    <figure class="w-72 h-80 p-3 mx-auto border-2 border-rose-400">
+                        <img class="block" src="./img/lwando.jpg" alt="Pen drawing" width="280" height="auto">
+                        <figcaption class="mt-2">
+                            <p>Pencil Artwork</p>
+                            <a href="">See more ...</a>
+                        </figcaption>
+                    </figure>
+                </article>
+        </section>
+    </main>
+
+    <!----- FOOTER OF PAGE ------>
+    <footer class="p-8 mt-8 bg-red-400">
+        <p>Why is this shit not working</p>
+    </footer>
+
+</body>
+</html>
