@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
 
@@ -18,9 +18,9 @@ module.exports = {
         '90v': '90vh',
       },
 
-      // minWidth:{
-
-      // }
+      maxWidth:{
+        '80w': '900px',
+      },
 
       margin:{
         '40%': '40%'
