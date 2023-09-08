@@ -18,6 +18,10 @@ module.exports = {
         '90v': '90vh',
       },
 
+      // minWidth:{
+
+      // }
+
       margin:{
         '40%': '40%'
       },
