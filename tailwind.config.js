@@ -30,7 +30,10 @@ module.exports = {
       backgroundImage:{
         'hero': "url('../src/img/back.jpg')",
         'hero-small': '',
-      }
+      },
+      screens:{
+        'xl': '1114px'
+      }, 
     
     },
   },
