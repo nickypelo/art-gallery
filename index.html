@@ -50,30 +50,40 @@
         <!------- END OF HERO SECTION  ------>
 
         <!------- INTRODUCTION OF CONTENT------>
-        <h1 class="text-4xl text-center py-4 max-w-5xl mx-auto sticky top-14 z-10 bg-neutral-400 sm:top-0">Recent work</h1>
+        <h1 class="text-4xl text-center py-4 max-w-5xl mx-auto bg-neutral-400">Recent work</h1>
         <!--- Pen Artwork-->
         <section id="pen_container" class=" relative max-w-5xl p-4 mx-auto">
             <h2 class=" text-2xl my-4">Pen Artwork</h2>
             <article id="pen" class="flex items-end shadow-md sm:p-8">
                 <!-- <h2 class=" text-2xl my-4">Pen Artwork</h2> -->
                 <figure class="w-72 mx-auto h-92 p-3 sm:mx-0">
-                    <img id="view_pen" class="block mx-auto border-2" src="./src/img/manta.jpg" alt="Pen drawing" width="260" height="auto">
+                    <img id="view_pen" class="block mx-auto border-2" src="./src/img/pen/ch.jpg" alt="Pen drawing" width="260" height="auto">
                     <figcaption class="mt-2">
-                        <p>Pen Artwork</p>
+                        <p id="cap_pen" class="text-center">Black</p>
                         <button id="penBtn" class="sm:hidden">See more ...</button>
                     </figcaption>
                 </figure>
 
-                <div id="pen_options" class="hidden h-44 w-3/5 ml-4 border-2 md:flex p-4">
+                <div id="pen_options" class="hidden h-44 w-3/5 ml-4 border-2 md:flex justify-between p-4">
                     <!-- <div class="div bg-black w-20 h-20"></div> -->
                     <figure class="w-24 h-28 m-2">
-                        <img id="pen_1" src="./src/img/chris.jpg" alt="color_pencil" width="90"  class="block mx-auto">
-                        <figcaption class="text-center">Color Pen</figcaption>
+                        <img id="pen_1" src="./src/img/pen/chris.jpg" alt="color_pencil" width="90"  class="block mx-auto">
+                        <figcaption id="cap_pen1" class="text-center">Color</figcaption>
                     </figure>
 
                     <figure class="w-24 h-28 m-2">
-                        <img id="pen_2" src="./src/img/marama.jpg" alt="color_pencil" width="90"  class="block mx-auto">
-                        <figcaption class="text-center">Blue Pen</figcaption>
+                        <img id="pen_2" src="./src/img/pen/manta.jpg" alt="color_pencil" width="90"  class="block mx-auto">
+                        <figcaption id="cap_pen2" class="text-center">Blue</figcaption>
+                    </figure>
+
+                    <figure class="w-24 h-28 m-2">
+                        <img id="pen_3" src="./src/img/pen/tensh.jpg" alt="color_pencil" width="90"  class="block mx-auto">
+                        <figcaption id="cap_pen3" class="text-center">Color</figcaption>
+                    </figure>
+
+                    <figure class="w-24 h-28 m-2">
+                        <img id="pen_4" src="./src/img/pen/andrew.jpg" alt="color_pencil" width="90"  class="block mx-auto">
+                        <figcaption id="cap_pen4" class="text-center">Blue</figcaption>
                     </figure>
                 </div>
             </article>
@@ -83,13 +93,13 @@
                 <h3 class="text-center"><em>Select to View</em></h3>
                 <article class="flex justify-around h-44">
                     <figure class="w-24 h-30 m-2">
-                        <img id="pen_11" src="./src/img/chris.jpg" alt="color_pencil" width="100"  class="block mx-auto">
-                        <figcaption class="text-center">Color</figcaption>
+                        <img id="pen_11" src="./src/img/pen/chris.jpg" alt="color_pencil" width="100"  class="block mx-auto">
+                        <figcaption id="cap_pen11" class="text-center">Color</figcaption>
                     </figure>
     
                     <figure class="w-24 h-30 m-2">
-                        <img id="pen_22" src="./src/img/Palesa.jpg" alt="color_pencil" width="100" class="block mx-auto">
-                        <figcaption class="text-center">Mixed</figcaption>
+                        <img id="pen_22" src="./src/img/pen/manta.jpg" alt="color_pencil" width="100" class="block mx-auto">
+                        <figcaption id="cap_pen22" class="text-center">Blue</figcaption>
                     </figure>
                 </article>
             </div>
@@ -101,27 +111,32 @@
             <h2 class="text-right text-2xl my-4">Pencil Artwork</h2>
             <article id="pencil" class="flex items-end shadow-md sm:p-8 ">
                 <figure class="w-72 mx-auto shadow-lg h-92 p-3 sm:mx-0 ">
-                    <img id="view_pencil" class="block mx-auto border-2" src="./src/img/lwando.jpg" alt="Pen drawing" width="260" >
+                    <img id="view_pencil" class="block mx-auto border-2" src="./src/img/pencil/lwando.jpg" alt="Pen drawing" width="260" >
                     <figcaption class="mt-2">
-                        <p>Pencil Artwork</p>
+                        <p id="cap_pencil" class="text-center">Pencil</p>
                         <button id="pencilBtn" class="sm:hidden">See more ...</button>
                     </figcaption>
                 </figure>
 
                 <div id="pencil_options" class="hidden h-44 w-3/5 ml-4 border-2 justify-between md:flex p-4">
                     <figure class="w-24 h-28 m-2">
-                        <img id="pencil_1" src="./src/img/marama.jpg" alt="color_pencil" width="90"  class="block mx-auto">
-                        <figcaption class="text-center">Color</figcaption>
+                        <img id="pencil_1" src="./src/img/pencil/marama.jpg" alt="pencil" width="90"  class="block mx-auto">
+                        <figcaption id="cap_pencil1" class="text-center">Color</figcaption>
                     </figure>
 
                     <figure class="w-24 h-28 m-2">
-                        <img id="pencil_2" src="./src/img/neeve.jpg" alt="color_pencil" width="90" class="block mx-auto">
-                        <figcaption class="text-center">Mixed</figcaption>
+                        <img id="pencil_2" src="./src/img/pencil/sima.jpg" alt="pencil" width="90" height="112.47" class="block mx-auto">
+                        <figcaption id="cap_pencil2" class="text-center">B&W</figcaption>
                     </figure>
 
                     <figure class="w-116 h-28 m-2">
-                        <img id="pencil_3" src="./src/img/Palesa.jpg" alt="color_pencil" width="90" class="block mx-auto">
-                        <figcaption class="text-center">Color</figcaption>
+                        <img id="pencil_3" src="./src/img/pencil/Palesa.jpg" alt="pencil" width="90" class="block mx-auto">
+                        <figcaption id="cap_pencil3" class="text-center">Color</figcaption>
+                    </figure>
+
+                    <figure class="w-116 h-28 m-2">
+                        <img id="pencil_4" src="./src/img/pencil/lupe.jpg" alt="pencil" width="90" height="112.47" class="block mx-auto">
+                        <figcaption id="cap_pencil4" class="text-center">B&W</figcaption>
                     </figure>
                 </div>
             </article>
@@ -131,13 +146,13 @@
                 <h3 class="text-center"><em>Select to View</em></h3>
                 <article class="flex justify-around h-44">
                     <figure class="w-24 h-30 m-2">
-                        <img id="pencil_11" src="./src/img/marama.jpg" alt="color_pencil" width="100"  class="block mx-auto">
-                        <figcaption class="text-center">Color</figcaption>
+                        <img id="pencil_11" src="./src/img/pencil/marama.jpg" alt="pencil" width="100"  class="block mx-auto">
+                        <figcaption id="cap_pencil11" class="text-center">Color</figcaption>
                     </figure>
     
                     <figure class="w-24 h-30 m-2">
-                        <img id="pencil_22" src="./src/img/neeve.jpg" alt="color_pencil" width="100" class="block mx-auto">
-                        <figcaption class="text-center">Mixed</figcaption>
+                        <img id="pencil_22" src="./src/img/pencil/sima.jpg" alt="pencil" width="100"  class="block mx-auto ">
+                        <figcaption id="cap_pencil22" class="text-center">B&W</figcaption>
                     </figure>
                 </article>
             </div>
